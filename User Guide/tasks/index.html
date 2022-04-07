@@ -1,0 +1,480 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assetsimages/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
+    
+    
+      
+        <title>Tasks - PizzaBot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.644de097.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ab47bd">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="purple" data-md-color-accent="cyan">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tasks" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PizzaBot" class="md-header__button md-logo" aria-label="PizzaBot" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PizzaBot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tasks
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PizzaBot" class="md-nav__button md-logo" aria-label="PizzaBot" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    PizzaBot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          User Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="User Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          User Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Requirement%20Analysis/" class="md-nav__link">
+        Requirement Analysis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../methodology/" class="md-nav__link">
+        Methodology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objective/" class="md-nav__link">
+        Objective
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Tasks
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="tasks">Tasks</h1>
+<ol>
+<li>Follow the installation instructions and initialize your demo bot. Now you should have a folder PIBO with all the necessary files set up for you.</li>
+</ol>
+<p><img alt="" src="images/image1.png" /></p>
+<ol>
+<li>For the first step, let us start with the easy part - creating training data. For this, you will work with the data folder provided to you. Note: All the training NLU data, stories, rules and lookup tables will be created under the data folder which will be the base for training your NLU model.</li>
+</ol>
+<p><img alt="" src="images/image17.png" /></p>
+<ol>
+<li>
+<p>Start by creating NLU training data. Rasa NLU takes user input in unstructured human language form and extracts structured data in form of intents and entities. Intents are labels that represent goal or meaning and entities are important keywords that your assistant should take note of. To put it simply, intents are user intentions (verbs) that you want your assistant to handle and entities are pieces of user information (nouns) that you want your assistant to detect and store.</p>
+<p><img alt="" src="images/image10.png" /></p>
+<p>Now if you were to annotate this as Rasa NLU data, you would do it as follows in the nlu.yml file:</p>
+<p><img alt="" src="images/image20.png" /></p>
+<p>To follow best practices, it is good to add in 10-15 examples per intent before training your NLU model. Make sure you add variety in terms of the language structure rather than the nouns because we have lookup tables to deal with diverse entity value detection. Once you’re done with creating the NLU data, let us move on to lookup tables.</p>
+</li>
+<li>
+<p>Lookup: As we mentioned earlier, training a model that detects multiple entities of the same type can be a tedious task. But thanks to lookups, we can simply list down all possible values for an entity in a lookup table and Rasa will take care of the rest. While listing the values, we have a separate yaml file where we list all known sets of values for a given entity. As mentioned in the official documentation, lookup tables are lists of words used to generate case-insensitive regular expression patterns. Lookups aren’t that complicated to get started with, know more about their correct usage <a href="https://rasa.com/docs/rasa/nlu-training-data/#lookup-tables">here</a>.</p>
+</li>
+<li>
+<p>Knowledge base: Users will query about other attributes of an item in real-life settings, often known as dynamic queries, such as the price of a pizza or the toppings available for a specific style of pizza. To respond to this kind of inquiries from users, a knowledge base (also known as a database) about restaurants is required. However, in other domains, this information is dynamic and changes on a regular basis. As a result, all of this data cannot be hard-coded. This knowledge base can be integrated into Rasa by using Knowledge base action.
+    Knowledge base action can also be used to deal with referential resolution. Referential resolution refers to correctly parsing the pronouns (such as it, the first one and the last one) into corresponding concrete objects. For more information about knowledge base, please refer to this <a href="https://rasa.com/docs/action-server/knowledge-bases/">link</a>.</p>
+</li>
+<li>
+<p>Stories and Rules</p>
+<p>Next up is stories. You can think of a story as a script detailing the back and forth conversation between user and assistant, from beginning to end. It also is the basic unit of dialogue training data. It generalizes unseen conversations paths, and you add stories on stories.yml file inside data/ folder.</p>
+<p>Since we used the rasa init command to create the assistant earlier, we should see a few examples already on stories.yml. Let’s take a look at it.</p>
+<p><img alt="" src="images/image11.png" /></p>
+<p>Here is one example with a story named happy path followed by steps that have intent and action pair. Action defines the hard coded response the bot should provide in case of a given intent prediction.</p>
+<p>I hope you’re ready to add your own stories now. Let’s create a story Place order 1 which lets the user order the pizza and after that confirms the order of the user too.</p>
+<p><img alt="" src="images/image13.png" /></p>
+<p>Let me show you an example of action utter_ask_order.</p>
+<p><img alt="" src="images/image18.png" /></p>
+<p>We define these responses on a file called domain.yml which we’ll look into later on.</p>
+<p>If you’re wondering what the conversation looks like for a given story, here is how it goes.
+<img alt="" src="images/image3.png" /></p>
+<p>Now let’s talk about rules.
+It is a short piece of conversation that should always follow the same path. And it is great to handle specific conversations, but unlike stories, rules cannot generalize to unseen conversation paths. 
+Like stories, you’ll add your rules on rules.yml inside the data/ directory. Let’s see an example. </p>
+<p><img alt="" src="images/image16.png" /></p>
+</li>
+<li>
+<p>Slots: In simple words, Slots are chatbots memory that enables it to store important details and later use them in a specific context. Let us assume that we have ordered a small size pizza and, after a certain time of conversation when the user wants the bot to repeat what has been ordered, at that point bot should be able to respond with small size pizza. The slot can be set in two different ways: using NLU data and by using Custom action.</p>
+<p><img alt="" src="images/image16.png" /></p>
+<p>Here is the basic template which should be added to the domain.yml file for using the slot. To know more about slots, refer to this <a href="https://rasa.com/docs/rasa/domain/#slots">link</a>.</p>
+</li>
+<li>
+<p>Custom Actions
+     Till now, we were adding our response template directly to our domain file which was the easiest way to define the message an assistant sends the user once a specific utterance is predicted. But there is another way to achieve the same result - by creating custom actions. 
+    Custom actions are response actions that include custom code. That custom code can define anything from a simple text response to a backend integration - an API call, connecting to the database, or anything else your assistant needs to do. </p>
+<p>Custom actions are defined in a file called actions.py inside the action folder.</p>
+<p><img alt="" src="images/image8.png" /></p>
+<p>Again, the rasa init function created a sample file for us, this time including the code for a simple Hello World custom action, which we will examine to better understand custom actions.</p>
+<p><img alt="" src="images/image7.png" /></p>
+<p>Next, we have a class of custom actions called ActionConfirmOrder. The class consists of two functions - name and run. The function name in the class must match the name of the custom action in your training stories (in stories.yml). For example, when the custom action action_confirm_order is included in a story, Rasa knows to run the code defined in the custom action class named action_confirm_order. </p>
+<p>The run function within the class contains the code to be executed, once the custom action is predicted. The run function is where you can define what the custom action actually does. Note the tracker and dispatcher elements, which are very useful and important pieces of the run function: 
+* the tracker keeps track of what happens at each point within a dialogue - what intents were predicted, which entities where extracted, as well as other information 
+* the dispatcher is the element that sends the response back to the user.</p>
+<p>Updating this actions file for our pizza confirmation would look like this. We created a class called ActionConfirmOrder that, when the action called action_confirm_order is predicted, the assistant retrieves the entity(which could be pizza you ordered eg. mushroom pizza) if it is present and respond with,”Order for placed for: mushroom pizza” or else it responds with,”Sorry, I couldn't get the item you want to order.” in case of none entity found.</p>
+</li>
+<li>
+<p>Forms: Most of the time, chatbots are used to gather data from the user and take actions based on it. So, Forms are used to collect information from the user (For example: What size would you like your pizza to be?) and, the collected information is set in a slot for later use.</p>
+<p>To use forms, we need to make sure that the Rule policy is set to config.yml file</p>
+<p><img alt="" src="images/image4.png" /></p>
+<p>Now, we need to define the form in domain.yml file</p>
+<p><img alt="" src="images/image14.png" /></p>
+<p>At last, we need to add a story or rule, which describes when to open or close the form.</p>
+<p><img alt="" src="images/image2.png" /></p>
+<p>To know more about forms, refer to this <a href="https://rasa.com/docs/rasa/forms/">link</a>.</p>
+</li>
+<li>
+<p>Fallback and chitchats: Keeping the technical stuff aside, another major requirement we should be looking into while building chatbots is its versatility - its ability to gracefully fall back while the user diverts from the main topic and bring them back on track. On the other side, it should also be able to deal with a few chitchats and off-topic queries that the user might send. An example scenario would be as follows. Notice how a human and a chatbot would deal with a similar situation.</p>
+<p><img alt="" src="images/image6.png" /></p>
+<p>But if you train your chat assistant to deal with such situations with a few chitchats and fallback, your chat assistant could operate in such a way:
+<img alt="" src="images/image9.png" /></p>
+<p>You might think, chitchats can be of multiple types - and the definition of chitchat can vary from person to person. So it wouldn’t be logical to add a different intent for each chitchat that exists. For this, Rasa provides the concept of sub-intents that branch out from the main intent. For instance, you can have a main intent called chitchat, and you can create sub-intents that denote possible categories of chitchat like chitchat/is_bot, chitchat/where_born, etc. And for your convenience, you can even craft different responses for these sub-intents.</p>
+<p><img alt="" src="images/image12.png" /></p>
+<p>A sample code snippet is here:</p>
+<p><img alt="" src="images/image15.png" /></p>
+<p>And the respective responses for each sub-intent can go into a separate responses.yml file like this:</p>
+<p><img alt="" src="images/image19.png" /></p>
+</li>
+<li>
+<p>Domain 
+    The domain is like the universe of your assistant which specifies all the intents, entities, slots, responses, forms and actions your bot should know about. It defines the environment in which the assistant operates including:</p>
+</li>
+  <ul>
+    <li>What the user means: specifically, what intents and entities the model can understand</li>
+    <li>What responses the model can provide: such as utterances or custom actions </li>
+    <li>What to say next: what the model should be ready to respond with </li>
+    <li>What info to remember: what information an assistant should remember and use throughout the conversation </li>
+  </ul>
+</ol>
+<p>Voilà <img alt="👏" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f44f.svg" title=":clap:" /> </p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../objective/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Objective" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Objective
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c44cc438.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
